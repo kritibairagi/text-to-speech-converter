@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgb(96, 96, 167),rgb(40, 40, 152),rgb(1, 1, 49));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+}
+.container h1{
+    font-size: 2.3rem;
+    margin-top: -3rem;
+    margin-bottom: 2.4rem;
+}
+
+textarea{
+    width: 38vw;
+    height: 43vh;
+    border-radius: 0.8rem;
+    background: rgb(123, 123, 181);
+    font-size: 1.4rem;
+    margin-bottom: 2.4rem;
+    border: 0.2rem solid black;
+    resize: none;
+    padding: 1.1rem;
+    color: whitesmoke;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.drop-down{
+    margin-bottom: 1.7rem;
+    display: flex;
+    gap: 1.4rem;
+}
+
+select{
+    flex: 1;
+    border-radius: 1.5rem;
+    outline: none;
+    border: 0;
+    padding: 0 1.3rem;
+    height: 3rem;
+    font-size: 1.1rem;
+}
+
+button{
+    width: 15rem;
+    background-color: rgb(156, 119, 74);
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    border: 0;
+    outline: none;
+    padding: 0.8rem 0.5rem ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}
